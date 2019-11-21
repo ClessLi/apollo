@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c9b55c9-995d-4abc-abee-180db007b5b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo_port/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/apollo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建" />
+    <MESSAGE value="调整文件结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整文件结构" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
