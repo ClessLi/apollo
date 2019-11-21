@@ -1,4 +1,4 @@
-module ClessLi/apollo
+module github.com/ClessLi/apollo
 
 go 1.13
 

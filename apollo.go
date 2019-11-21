@@ -1,17 +1,19 @@
 package main
 
 import (
-	apolloConf "ClessLi/apollo/config"
 	"flag"
 	"fmt"
+	apolloConf "github.com/ClessLi/apollo/config"
 	"github.com/robfig/config"
 	"os"
 )
 
 // 定义程序入参
-var iniConfPath *string = flag.String("f", "/home/shell/docker/docker.ini", "`Configfile` storage path.")
-var jobName *string = flag.String("j", "", "`JobName` for the project of jenkins.")
-var env *string = flag.String("e", "", "Name of task execution `env`ironment.")
+var (
+	iniConfPath *string = flag.String("f", "/home/shell/docker/docker.ini", "`Configfile` storage path.")
+	jobName     *string = flag.String("j", "", "`JobName` for the project of jenkins.")
+	env         *string = flag.String("e", "", "Name of task execution `env`ironment.")
+)
 
 func main() {
 	flag.Parse()

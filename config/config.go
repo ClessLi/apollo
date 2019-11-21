@@ -1,8 +1,8 @@
 package config
 
 import (
-	"ClessLi/apollo/api"
 	"fmt"
+	"github.com/ClessLi/apollo/api"
 	"github.com/PuerkitoBio/goquery"
 	"github.com/thedevsaddam/gojsonq"
 	"io/ioutil"
